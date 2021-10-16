@@ -7,7 +7,7 @@ import cors from "cors";
 import helmet from "helmet";
 
 // Microservices routes
-import Auth from "./API/Auth";
+import Auth from "./API/Auth/index";
 
 // Database connection
 import ConnectDB from "./database/connection";
